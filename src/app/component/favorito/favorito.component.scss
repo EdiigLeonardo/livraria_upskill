@@ -1,0 +1,19 @@
+.img_container{
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+
+  :hover{
+    transform: scale(1.112);
+  }
+}
+
+img{
+  display: inline-block;
+  cursor: pointer;
+  max-width: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+

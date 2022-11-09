@@ -1,0 +1,5 @@
+<app-venda *ngFor="let venda of vendas"
+           [nome_livro]="venda.livro"
+           [autor]="venda.cliente"
+           [data]="venda.data"
+           [imagem]="venda.imagem"></app-venda>

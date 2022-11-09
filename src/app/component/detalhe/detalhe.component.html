@@ -1,0 +1,21 @@
+<div class="detalhe">
+  <div class="livro_detalhes">
+    <img [src]="imagem"/>
+    <div class="description">
+      <h2>{{titulo}}</h2>
+      <p class="autor">{{autor}}</p>
+      <p class="ano">{{ano}}</p>
+    </div>
+    <div class="absolute_item">
+      <fa-icon [icon]="faBookmark"></fa-icon>
+    </div>
+  </div>
+  <hr/>
+  <p class="sinopsis">{{sinopse}}</p>
+  <hr/>
+  <div class="vendas_acordeao">
+    <span>Vendas</span>
+    <fa-icon [icon]="faAngleDown"></fa-icon>
+  </div>
+</div>
+

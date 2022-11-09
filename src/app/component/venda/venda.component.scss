@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.venda{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border-left: 3px solid red;
+  align-items: center;
+  margin-bottom: 15px;
+
+  >div{
+    height: 100px;
+  }
+  img{
+    height: 100px;
+  }
+
+  span, h3, p{
+    margin-bottom: 5px;
+  }
+}
+
+
