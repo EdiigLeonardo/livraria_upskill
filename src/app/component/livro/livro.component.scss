@@ -31,10 +31,16 @@
       box-shadow: 0 3px 5px rgba(0,0,0,0.3);
     }
 
-    ng-fa-icon{
-        color: #0098cd;
-        font-size: 1.5em;
-    }
+}
+
+.ng-fa-icon{
+  color: #0098cd;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.ng-fa-icon:hover{
+  color: #116783;
+  transform: scale(1.2);
 }
 
 

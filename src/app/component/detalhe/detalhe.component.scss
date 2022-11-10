@@ -86,7 +86,12 @@
   left: 170px;
 
   .ng-fa-icon{
-    color: cornflowerblue;
+    color: #6b6b6b;
     position: absolute;
+    cursor: pointer;
+  }
+  .ng-fa-icon:hover{
+    color: cornflowerblue;
+    transform: scale(1.01);
   }
 }
